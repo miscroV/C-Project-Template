@@ -4,14 +4,16 @@
 # * File: run.sh
 # * Author: MiscroV
 # * Created: 2026-3-4
-# * Description: recompile and then run the project using the given name project.
+# * Description: recompile and then run the project using the 
+# *              given name for the executable.
 # *****************************************************************************
 
 # Exit on failure
 set -e
-project='Template'
+
 
 # Build the project 
+project='build'
 (
 cd "$(dirname "$0")"
 cmake -S . -DPROJECT_NAME_VAR=$project -B build

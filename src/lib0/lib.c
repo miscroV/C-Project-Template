@@ -12,5 +12,5 @@
 
 //++ Function Implementation ---------------------------------------------------
 int lib_hello_world() {
-    return printf("Hello, World! 2\n");
+    return printf("Hello, World!\n");
 }
